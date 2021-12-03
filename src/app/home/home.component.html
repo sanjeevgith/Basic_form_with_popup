@@ -45,36 +45,36 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-header" style="background-color: blue;">
+        <div class="modal-header" style="background-color: #0084ff;">
           <h5 class="modal-title" style="color: cornsilk;" id="exampleModalLabel">Address Details</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
+        <div class="modal-body"><br>
           <table>
             <tr>
               <td> <label>Full Name:</label></td>
               <td>{{form.value.Name|json}}</td>
-            </tr>
+            </tr><br>
             <tr>
               <td><label>Address1:</label></td>
               <td>{{form.value.Address1|json}}</td>
-            </tr>
+            </tr><br>
             <tr>
               <td><label>Address2:</label></td>
               <td>{{form.value.Address2|json}}</td>
-            </tr>
+            </tr><br>
             <tr>
               <td> <label>City:</label></td>
               <td>{{form.value.City|json}}</td>
-            </tr>
+            </tr><br>
             <tr>
               <td><label>State:</label></td>
               <td>{{form.value.State|json}}</td>
-            </tr>
+            </tr><br>
         </table>
           
           <div class="text-center">
-            <button type="button" class="btn btn-primary" data-bs-dismiss="modal" >OK</button>
+            <button type="button" class="btn btn-primary" style="width: 100px;" data-bs-dismiss="modal" >OK</button>
             </div>
         </div>
       
